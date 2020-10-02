@@ -55,10 +55,9 @@ class PageDrawer extends StatelessWidget {
                 );
               }
             },
-            icon: Icon(
-              Icons.accessibility,
-              color: Colors.white,
-            ),
+            icon: Image.asset("images/person.png",
+            height: 30,
+            width: 30,),
             label: Text("Pagina 2",
                 style: TextStyle(
                     fontSize: 20,
@@ -79,7 +78,7 @@ class PageDrawer extends StatelessWidget {
               }
             },
             icon: Icon(
-              Icons.accessibility,
+              Icons.security,
               color: Colors.white,
             ),
             label: Text("Pagina 3",
